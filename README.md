@@ -1,5 +1,4 @@
-# Miui8_patchrom_Pantech_IM-A910
-Project MIUI 8 Patchrom for Sky A910
+Project MIUI 8 Patchrom for LG G Pro 2
 ===========
 
 Get Android SDK
@@ -31,21 +30,14 @@ Then to sync up:
 
 $ repo sync
 
-$ git clone https://github.com/linhphi9x94/Miui8_patchrom_Pantech_IM-A910.git ef63l
+$ git clone https://github.com/linhphi9x94/MIUI8_Patchrom_LG-GPRO2-D838.git D838
 
 Build
 --------
-$ . build/envsetup.sh && cd ef63l
+$ . build/envsetup.sh && cd D838
 
 $ make fullota
 
 And then look at out/fullota.zip,it is the MIUI ROM
 
 Now you can get your own miui ROM, enjoy it!
-
-<b> Thank to </b>
-- @Micode Miui Rom 
-- @wuxianlin
-- @garyyiu2015
-- http://xdavn.com
-- @sunghun, @chautruongthinh for based cm13 work fine and twrp
